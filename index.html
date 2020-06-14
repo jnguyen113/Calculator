@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <h1 class="title">CALCULATOR</h1>
+    <body>
+        <div id="frame">
+            <div class="screen" id="screen" style="font-size: 3rem">0</div>
+            <div class="top">
+                <button class="clear" onclick="pushBtn(this);">A/C</button>
+                <button class="back"><-</button>
+                <button class="number-button" id="operator" onclick="pushBtn(this);">/</button>
+            </div>
+            <div id="numbers">
+                <div class="top-row">
+                    <button class="number-button" onclick="pushBtn(this);">7</button>
+                    <button class="number-button" onclick="pushBtn(this);">8</button>
+                    <button class="number-button" onclick="pushBtn(this);">9</button>
+                    <button class="number-button" id="operator" onclick="pushBtn(this);">*</button>
+                </div>
+                <div class="top-mid">
+                    <button class="number-button" onclick="pushBtn(this);">4</button>
+                    <button class="number-button" onclick="pushBtn(this);">5</button>
+                    <button class="number-button" onclick="pushBtn(this);">6</button>
+                    <button class="number-button" id="operator" onclick="pushBtn(this);">-</button>
+                </div>
+                <div class="bottom-mid">
+                    <button class="number-button" onclick="pushBtn(this);">1</button>
+                    <button class="number-button" onclick="pushBtn(this);">2</button>
+                    <button class="number-button" onclick="pushBtn(this);">3</button>
+                    <button class="number-button" id="operator" onclick="pushBtn(this);">+</button>
+                </div>
+                <div class="bottom-row">
+                    <button class="number-button" onclick="pushBtn(this);">0</button>
+                    <button class="." onclick="pushBtn(this);">.</button>
+                    <button class="negative" onclick="pushBtn(this);">-</button>
+                    <button class="equal" onclick="pushBtn(this);">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

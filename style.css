@@ -1,1 +1,84 @@
+.title{
+    font-family: fantasy;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.screen{
+    height: 70px;
+    width: 95%;
+    margin: 10px 5px 10px 5px;
+    padding: 0 5px;
+    text-align: right;
+    background-color: lightgrey;
+    color: white;
+    font-size: 5rem;
+    border-radius: 5%;
+}
 
+#frame{
+    display: inline-block;
+    border: 10px solid white;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+
+}
+body{
+    background-image: url(https://media.istockphoto.com/vectors/math-formula-background-vector-id956253048?k=6&m=956253048&s=170667a&w=0&h=qmSOZrR1aMvdIvt5-zSpFfl41HRNATtWx8mlszjw0XA=);
+    opacity: 0.5px;
+}
+
+.top button{
+    text-align: center;
+    background-color: orange;
+    font-family: monospace;
+    border: 20px;
+    font-size: 50px;
+    padding: 20px;
+    height: 80px;
+    width: 100px;
+    margin: 2px;
+}
+
+.top .clear{
+    font-size: 50px;
+    width: 210px;
+
+}
+
+#numbers button{
+    font-family: monospace;
+    border: 20px;
+    font-size: 50px;
+    padding: 20px;
+    height: 80px;
+    width: 100px;
+    margin: 2px;
+    background-color: lightgrey;
+}
+#frame button:hover{
+    background-color: grey;
+}
+
+#operator{
+    background-color: orange;
+}
+#numbers button:hover{
+    background-color:grey;
+}
+
+#numbers .equal{
+    font-weight: bold;
+    background-color: orange;
+}
+
+#numbers #operator{
+    font-weight: bold;
+    background-color: orange;
+}
+#numbers #operator:hover{
+    background-color:grey;
+}
